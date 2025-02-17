@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe shop website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="main">
+        <header>
+            <nav class="navigation">
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em"  width="1em"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </label>
+                <div class="side-menu">
+                    <div class="menu-container">
+                        <strong>Main Links</strong>
+                        <label for="menu-btn" class="close-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"  height="1em"  width="1em"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                        </label>
+                        <ul class="menu">
+                            <li><a href="#main">Home</a></li>
+                            <li><a href="#shopping-banner">Shop</a></li>
+                            <li><a href="#popular">Popular</a></li>
+                            <li><a href="#recent-product">Recent</a></li>
+                            <li><a href="#blog">News</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="logo">
+                    <img src="images/mr.jpg" alt="logo">
+                </a>
+                <div class="nav-btns">
+                    <a href="javascript:void(0);" class="nav-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" ><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                    </a>
+
+                    <a href="#" class="nav-user">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em"  width="1em" ><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
+                    </a>
+
+                    <a href="#" class="nav-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"  height="1em"  width="1em"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                    </a>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <div class="main-content-text">
+                <strong>Coffee</strong>
+                <h1>Enjoy <br/>Your Morning <br/>Coffee</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum consectetur doloribus</p>
+                <span> 14.50 MAD</span>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="main-content-img">
+                <img src="images/log.jpg" alt="model">
+            </div>
+        </div>
+    </section>
+
+    <div class="search-bar">
+        <form class="search-input">
+             <input type="text" name="search" placeholder="Search For Product"/>
+             <a href="javascript:void(0);" class="search-cancel">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"  height="1em"  width="1em"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+             </a>
+        </form>
+    </div>
+
+    <div class="form">
+
+        <div class="login-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em">
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </a>
+    
+            <strong>Log In</strong>
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Log In"/>
+            </form>
+    
+            <div class="form-btns">
+                <a href="#" class="forget">Forgot Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create An Account</a>
+            </div>
+        </div>
+    
+        <div class="sing-up-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em">
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </a>
+    
+            <strong>Sign Up</strong>
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required/>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Sign Up"/>
+            </form>
+    
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already">Already Have An Account?</a>
+            </div>
+        </div>
+    
+    </div>
+    
+    <section id="popular">
+        <h2>Popular Coffee</h2>
+        <div class="popular-container">
+            <div class="popular-product-container">
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/WhatsApp Image 2025-02-16 at 02.18.35_cf2f9b84.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>140 MAD <del>200 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/pp2.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>160 MAD <del>210 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/pp3.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>170 MAD <del>230 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/pp4.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>100 MAD <del>120 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/pp5.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>220MAD <del>300 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/pp6.jpg" alt="product"/>
+                        <span>New</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>70 MAD <del>100 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-banner">
+                <div class="popular-banner-text">
+                    <h3>Coffee Beans Collection</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="popular-banner-img">
+                    <img src="images/bann.jpg" alt="banner">
+                </div>
+            </div>
+            </section>
+
+            <section id="popular">
+                
+            </section>
+            
+            <section id="shopping-banner">
+                <div class="shopping-banner-container">
+                    <div class="shopping-banner-text">
+                        <strong>Collection</strong>
+                        <h3>Beautiful Coffee Beans</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam et dicta incidunt porro sed temporibus eligendi adipisci minima sit quidem tempora, laborum voluptas velit alias aliquid debitis nostrum! Commodi!</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                    <div class="shopping-banner-img">
+                        <img src="images/shopp.jpg" alt="banner-shop">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="recent-product">
+        <h2>Recent Coffee Collection</h2>
+        <div class="recent-coffee">
+            <div class="recent-coffee-container">
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/rp1.jpg" alt="product"/>
+                        <span>old</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>140 MAD <del>200 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/rp2.jpg" alt="product"/>
+                        <span>old</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>100 MAD <del>130 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/rp3.jpg" alt="product"/>
+                        <span>old</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>120 MAD <del>150 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/rp4.jpg" alt="product"/>
+                        <span>old</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>60 MAD <del>100 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+                
+         </div>
+           
+    </section>
+            
+           
+    <section id="partner">
+        <img src="images/logo2.jpg" alt="logo"/>
+        <img src="images/WhatsApp Image 2025-02-16 at 17.10.45_32e30b39.jpg" alt="logo"/>
+        <img src="images/logo3.jpg" alt="logo"/>
+        <img src="images/logo4.jpg" alt="logo"/>
+    </section>
+
+    <section id="recent-product">
+        <h2> Coffee Collection</h2>
+        <div class="recent-coffee">
+            <div class="recent-coffee-container">
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/coll1.jpg" alt="product"/>
+                        <span>collection</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>180 MAD <del>220 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/coll2.jpg" alt="product"/>
+                        <span>collection</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>200 MAD <del>250 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/coll3.jpg" alt="product"/>
+                        <span>collection</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>110 MAD <del>190 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <a class="product-box-img">
+                        <img src="images/coll4.jpg" alt="product"/>
+                        <span>Collection</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a href="#" class="product-text-title">Coffee Beans</a> 
+                        <span>90 MAD <del>120 MAD</del></span>
+                        <a href="#" class="product-cart-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em" aria-hidden="true">
+                                <path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+                            </svg>
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+                
+         </div>
+           
+    </section>
+      
+    <section id="blog">
+    <div class="blog-heading">
+        <h3>Recent News</h3>    
+    </div>
+
+    <div class="blog-container">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blog1.jpg" alt="">
+            </div>
+
+            <div class="blog-text">
+                <span>12 JANUARY 2025 / Coffee</span>
+                <a href="#" class="blog-title">We Provide Best Coffee Ever</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ratione reprehenderit tempora eos sapiente at ut nemo dignissimos! Harum rem, soluta tenetur autem animi porro vero molestias eaque tempore nostrum.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blog2.jpg" alt="">
+            </div>
+
+            <div class="blog-text">
+                <span>05 June 2024 / Coffee</span>
+                <a href="#" class="blog-title">We Provide Best Coffee Ever</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ratione reprehenderit tempora eos sapiente at ut nemo dignissimos! Harum rem, soluta tenetur autem animi porro vero molestias eaque tempore nostrum.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blog3.jpg" alt="">
+            </div>
+
+            <div class="blog-text">
+                <span>23 avril 2024 / Coffee</span>
+                <a href="#" class="blog-title">We Provide Best Coffee Ever</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ratione reprehenderit tempora eos sapiente at ut nemo dignissimos! Harum rem, soluta tenetur autem animi porro vero molestias eaque tempore nostrum.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    </section>
+            
+    <section class="services">
+        <div class="services-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"  height="1em"  width="1em"><path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z"/></svg>
+            <span>Free Shipping</span>
+            <p>Free Shipping For all oders</p>
+        </div>
+
+        <div class="services-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em"  width="1em"><path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg>
+            <span>Support 24h/7</span>
+            <p>Support 24h a day</p>
+        </div>
+
+        <div class="services-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em"  width="1em"><path d="M142.9 142.9c-17.5 17.5-30.1 38-37.8 59.8c-5.9 16.7-24.2 25.4-40.8 19.5s-25.4-24.2-19.5-40.8C55.6 150.7 73.2 122 97.6 97.6c87.2-87.2 228.3-87.5 315.8-1L455 55c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2l0 128c0 13.3-10.7 24-24 24l-8.4 0c0 0 0 0 0 0L344 224c-9.7 0-18.5-5.8-22.2-14.8s-1.7-19.3 5.2-26.2l41.1-41.1c-62.6-61.5-163.1-61.2-225.3 1zM16 312c0-13.3 10.7-24 24-24l7.6 0 .7 0L168 288c9.7 0 18.5 5.8 22.2 14.8s1.7 19.3-5.2 26.2l-41.1 41.1c62.6 61.5 163.1 61.2 225.3-1c17.5-17.5 30.1-38 37.8-59.8c5.9-16.7 24.2-25.4 40.8-19.5s25.4 24.2 19.5 40.8c-10.8 30.6-28.4 59.3-52.9 83.8c-87.2 87.2-228.3 87.5-315.8 1L57 457c-6.9 6.9-17.2 8.9-26.2 5.2S16 449.7 16 440l0-119.6 0-.7 0-7.6z"/></svg>
+            <span>100% Money Back</span>
+            <p>You have 30 days to return</p>
+        </div>
+    </section>  
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+                <a href="#" class="footer-logo">
+                    <img src="images/mr.jpg" alt="logo"/>
+                </a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/183eK6DLff/">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"  width="1em"  viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>                       
+                    </a>
+                    <a href="https://www.instagram.com/its_me_soohaib?igsh=MWtjbzVuY2RpYjJldA==">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em"  width="1em"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+                    <a href="https://x.com/Sohaibft057?t=7dNLpy9LPfLfU_BUNCmVAA&s=08">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"  height="1em" width="1em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em"  width="1em" ><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-class-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#recent-product">Recent</a></li>
+                    <li><a href="#shopping-banner">Shop</a></li>
+                    <li><a href="#recent-product">Collection</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-class-box">
+                <strong>Social Link's</strong>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/183eK6DLff/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/its_me_soohaib?igsh=MWtjbzVuY2RpYjJldA==">Instagram</a></li>
+                    <li><a href="https://x.com/Sohaibft057?t=7dNLpy9LPfLfU_BUNCmVAA&s=08">twitter</a></li>
+                    <li><a href="#">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <form class="subscribe-box">
+                    <input type="email" name="subscribe-email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Made By Going To Internet</span>
+            <span>© Copyeight 2025 - Going-To Internet</span> 
+        </div>
+    </footer>
+
+    
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded' ,function(event){
+            document.addEventListener('click' , function(event){
+                if(event.target.closest('.nav-search')){
+                    document.querySelector('.search-bar').classList.add('search-bar-active');
+                }
+                else if (event.target.closest('.search-cancel')){
+                    document.querySelector('.search-bar').classList.remove('search-bar-active');
+                }
+            })
+
+            document.addEventListener('click', function(event) {
+            const formElement = document.querySelector('.form');
+
+    // Si l'utilisateur clique sur "Log In" ou "Already Have An Account?"
+        if (event.target.closest('.nav-user') || event.target.closest('.already')) {
+            formElement.classList.add('login-active');
+            formElement.classList.remove('sign-up-active');
+        }
+
+    // Si l'utilisateur clique sur "Create An Account"
+         if (event.target.closest('.sign-up-btn')) {
+            formElement.classList.remove('login-active');
+         formElement.classList.add('sign-up-active');
+        }
+
+    // Si l'utilisateur clique sur "X" pour fermer le formulaire
+        if (event.target.closest('.form-cancel')) {
+            formElement.classList.remove('login-active', 'sign-up-active');
+        }
+
+
+
+
+});
+
+
+            const header = document.querySelector('header');
+            let lastScrollY = window.ScrollY;
+
+            window.addEventListener('Scroll', function(){
+                const currentScrollY = window.ScrollY;
+
+                if (currentScrollY === 0){
+                    header.classList.remove('header-fix');
+                }
+                else if (currentScrollY < lastScrollY){
+                    header.classList.remove('header-fix');
+                }
+                else{
+                    header.classList.remove('header-fix');
+                }
+            })
+        });
+
+
+
+    </script>
+</body>
+</html>
